@@ -7,21 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        $a = array(
-            array("audi"), 
-            array("bmw"), 
-            array("citroën"), 
-            array("ford", "focus"), 
-            array("honda"));
- 
+    <?php
+        $x = 5;
+        $y = 5;
+        $z = 5;
+        $ä = 5;
 
-        echo $a [0][0], "<br>";
-        echo $a [1][0], "<br>";
-        echo $a [2][0], "<br>";
-        echo $a [3][0], $a[3][1], "<br>";
-        echo $a [4][0], "<br>";
-        echo count($a);
+        //operaattorit
+        $a = ++$x;
+        $b = $y++;
+        $c = --$z;
+        $d = $ä--;
+
+        //operaattoreiden tulokset
+        print "<p>$a</p>";
+        print "<p>$b</p>";
+        print "<p>$c</p>";
+        print "<p>$d</p>";
     ?>
 </body>
 </html>

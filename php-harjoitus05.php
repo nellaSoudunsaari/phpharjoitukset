@@ -8,22 +8,23 @@
 </head>
 <body>
     <?php
-        $x = 5;
-        $y = 5;
-        $z = 5;
-        $ä = 5;
+        // muuttujat
+        $otsikko = "Painoindeksin laskeminen";
+        $etunimi = "Ukko";
+        $sukunimi = "Ylijumala";
+        $ika = 52;
+        $paino = 85;
+        $pituus = 1.80;
 
-        //operaattorit
-        $a = ++$x;
-        $b = $y++;
-        $c = --$z;
-        $d = $ä--;
+        // laskutoimitus ja tuloksen pyöristys
+        $bmi1 = $paino / ($pituus ** 2);
+        $bmi2 = round($bmi1, 1);
 
-        //operaattoreiden tulokset
-        print "<p>$a</p>";
-        print "<p>$b</p>";
-        print "<p>$c</p>";
-        print "<p>$d</p>";
+        // teksti ja painoindeksin tulostus
+        echo "<h1>$otsikko</h1>";
+        echo "<p>Tervetuloa, $etunimi $sukunimi</p>";
+        echo "<p>Painosi on $paino kg ja pituutesi on $pituus m.</p>";
+        echo "<p>Painoindeksisi on $bmi2.</p>"
     ?>
 </body>
 </html>

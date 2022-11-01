@@ -7,16 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $x = 5;
-        $y = 8;
-
-        //tosi/epätosi
-        var_dump($x === $y);
-        var_dump($x == $y);
-        var_dump($x != $y);
-        var_dump($x < $y);
-        var_dump($y < $x);
+    <?php 
+        $vaihtuvaTyyppi = 3.14;
+        //print(gettype($vaihtuvaTyyppi));
+        //print(settype($vaihtuvaTyyppi, "integer")); #tulos on 3
+        //print(settype($vaihtuvaTyyppi, "string")); #tulos on 3.14
+        //print(settype($vaihtuvaTyyppi, "double")); #tulos on 3.14
+        //print(settype($vaihtuvaTyyppi, "boolean")); #tulos on 1
+        echo "<p>$vaihtuvaTyyppi</p>";
     ?>
 </body>
 </html>
