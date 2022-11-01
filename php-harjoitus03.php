@@ -9,14 +9,12 @@
 <body>
     <?php 
         $vaihtuvaTyyppi = 3.14;
-        // tulos on double
-        print(gettype($vaihtuvaTyyppi));
+        //print(gettype($vaihtuvaTyyppi));
+        //print(settype($vaihtuvaTyyppi, "integer")); #tulos on 3
+        //print(settype($vaihtuvaTyyppi, "string")); #tulos on 3.14
+        //print(settype($vaihtuvaTyyppi, "double")); #tulos on 3.14
+        //print(settype($vaihtuvaTyyppi, "boolean")); #tulos on 1
         echo "<p>$vaihtuvaTyyppi</p>";
-    ?>
-    <?php
-        // tulos on 1
-        settype($vaihtuvaTyyppi, "string");
-        print "<p>$vaihtuvaTyyppi</p>";
     ?>
 </body>
 </html>
