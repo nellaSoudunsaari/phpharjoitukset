@@ -23,7 +23,7 @@
         //jakojäännös
         $jakoj = fmod($x, $y);
 
-        //tulokset
+        //tulokset ja vastaukset
         print "<p>$x + $y = $plus</p>";
         print "<p>$x - $y = $miinus</p>";
         print "<p>$x / $y = $jako</p>";
