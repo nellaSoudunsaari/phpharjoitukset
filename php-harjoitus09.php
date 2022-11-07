@@ -12,11 +12,11 @@
         $y = 8;
 
         //tosi/epätosi
-        var_dump($x === $y);
-        var_dump($x == $y);
-        var_dump($x != $y);
-        var_dump($x < $y);
-        var_dump($y < $x);
+        echo "$x === $y = ", var_dump($x === $y), "<br>";
+        echo "$x == $y = ", var_dump($x == $y), "<br>";
+        echo "$x != $y = ", var_dump($x != $y), "<br>";
+        echo "$x < $y = ", var_dump($x < $y), "<br>";
+        echo "$y < $x = ", var_dump($y < $x), "<br>";
     ?>
 </body>
 </html>
